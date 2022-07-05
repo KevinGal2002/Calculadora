@@ -19,8 +19,9 @@ public class Long_Int {
 
     //Clase para tranformar el dato Long  Int
     public int tranformarInt(){
-        int numInt =  (int) this.numLong;
-        return numInt;
+        int numInt1 =  (int) this.numLong;
+        return numInt1;
+        //Cambio de variable
 
     }
     //Cracion de Clase ToString y lista..
