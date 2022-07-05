@@ -1,4 +1,5 @@
 public class Long_Int {
+    //variable a usar
     private long numLong;
 
     //Contructores
