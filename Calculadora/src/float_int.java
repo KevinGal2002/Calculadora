@@ -1,5 +1,5 @@
 public class float_int {
-    //Tranformar de float a enteros
+    //Tranformar de float a int
     private float num1;
 
     public float_int(float num1) {
