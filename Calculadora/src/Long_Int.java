@@ -23,7 +23,7 @@ public class Long_Int {
         return numInt;
 
     }
-    //Cracion de Clase ToString
+    //Cracion de Clase ToString y lista..
     @Override
     public String toString() {
         return "Numero en tipo Long -> "+getNumLong()+
