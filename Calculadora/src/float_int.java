@@ -5,7 +5,7 @@ public class float_int {
     public float_int(float num1) {
         this.num1 = num1;
     }
-
+//setters y getters
     public float isNum1() {
         return num1;
     }
