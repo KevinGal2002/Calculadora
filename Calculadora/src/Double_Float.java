@@ -1,5 +1,5 @@
 public class Double_Float {
-        private double d1;
+    private double d1;
 
     public Double_Float(double d1) {
         this.d1 = d1;

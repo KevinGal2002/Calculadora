@@ -1,8 +1,6 @@
 import javax.swing.*;
 
 public class Procesos {
-
-    public class Metodos {
         public static int opcion(){
             int op;
             do {
@@ -13,14 +11,14 @@ public class Procesos {
                                 "\n3.-Double a Float" +
                                 "\n4.-Float a Int " +
                                 "\n0.-Salir"+
-                                "\nSeleccione: "),1);
+                                "\nSeleccione: "));
             }while (op<0 || op >4);
             return op;
         }
-        public void proceso(){
-            int op=opcion();
+        public static void proceso(){
+            int op;
             do {
-                switch (op){
+                switch (op=opcion()){
                     case 1:
                     {
                         short shortt=Short.parseShort(JOptionPane.showInputDialog(null," Ingresa un numero de tipo Short: "));
@@ -44,7 +42,7 @@ public class Procesos {
                     }
                     case 4:
                     {
-                        float shortt=Float.parseFloat(JOptionPane.showInputDialog(null," Ingresa un numero de tipo Double: "));
+                        float shortt=Float.parseFloat(JOptionPane.showInputDialog(null," Ingresa un numero de tipo Float: "));
                         float_int short_byte = new float_int(shortt);
                         JOptionPane.showMessageDialog(null,short_byte.toString());
                         break;
@@ -52,6 +50,4 @@ public class Procesos {
                 }
             }while(op!=0);
         }
-    }
-
 }
