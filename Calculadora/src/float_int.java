@@ -1,4 +1,5 @@
 public class float_int {
+    //Tranformar de float a enteros
     private float num1;
 
     public float_int(float num1) {
